@@ -15,6 +15,8 @@ const clickhouse = new ClickHouse({
   },
 });
 
+
+
 app.post("/add-hospital", async (req, res) => {
   const { hospital_id, name, location, capacity } = req.body;
   if (!hospital_id || !name || !location || !capacity) return res.status(400).send("All fields required");
@@ -27,6 +29,8 @@ app.post("/add-hospital", async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 });
+
+
 
 app.get("/get-hospitals", async (req, res) => {
   try {
