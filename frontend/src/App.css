@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+  background: #f4f6f9;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+.appBar {
+  background: linear-gradient(to right, #1976d2, #42a5f5);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.appTitle {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+}
+
+/* Logo */
+.logo {
+  width: 50px;
+  height: auto;
+  margin-right: 15px;
+}
+
+/* Form Container */
+.form-container {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  width: 50%;
+  text-align: center;
+}
+
+.form-title {
+  color: #1976d2;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* Input Fields */
+.MuiTextField-root {
+  margin-bottom: 15px;
+}
+
+/* Add Button */
+.add-button {
+  background: linear-gradient(to right, #1976d2, #42a5f5);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.add-button:hover {
+  background: linear-gradient(to right, #1565c0, #1e88e5);
+}
+
+/* Section Titles */
+.section-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+  margin-top: 30px;
+}
+
+/* Tables */
+.table-container {
+  background: white;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.table-header {
+  background: #1976d2;
+  color: white;
+  font-weight: bold;
+}
+
+.table-header th {
+  color: white !important;
+}
+
+.table-row:hover {
+  background: #e3f2fd;
+  transition: 0.3s;
+}
+
+/* Tabs */
+.MuiTabs-root {
+  background: white;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 60%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.MuiTab-root {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: none;
+  color: #333;
+}
+
+.MuiTabs-indicator {
+  background: #1976d2;
+}
+
+.MuiTab-root.Mui-selected {
+  color: #1976d2;
+}
